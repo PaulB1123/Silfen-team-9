@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "manrope";
+    src: url("./fonts/manrope/fonts/ttf/Manrope-Regular.ttf") format("truetype");
+    src: url("./fonts/manrope/fonts/web/Manrope-Regular.woff") format("woff");
+    src: url("./fonts/manrope/fonts/otf/Manrope-Regular.otf") format("opentype");
+}
+
+:root {
+    --lightblue: #8fb3d4;
+    --bodyText: "manrope";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "manrope";
+    font-weight: lighter;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+
+/* ul li {}
+
+header {} */
+
+.blueWrapper {
+    background-color: var(--lightblue);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vw 0 2vw;
+}
+
+.headerWrapper {
+    display: flex;
+    justify-content: space-around;
+    height: 4rem;
+}
+
+.headerWrapper {
+    border-bottom: solid 1px lightgrey;
+}
+
+.logo {
+    max-width: 200px;
+    min-width: 100px;
+    width: 100%;
+    height: auto;
+    margin: 15px auto 15px auto;
+}
+
+.buttonWrapper {
+    display: flex;
+    max-width: 200px;
+}
+
+
+/* svg {
+    width: 17px;
+    height: 17px;
+} */
+
+
+/* category page start */
+
+.items {
+    display: flex;
+    flex-direction: column;
+}
+
+.plus_sign {
+    width: 19.2px;
+    height: 19.2px;
+    background-size: 100%;
+    background-image: url("../images/Sound_with_correct_measurments.svg");
+}
+
+.minus_sign {  
+    width: 19.2px;
+    height: 19.2px;
+    background-size: 100%;
+    background-image: url("../images/Sound_with_correct_measurments.svg");
+}
+
+
+/* category page end */
